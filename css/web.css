@@ -132,6 +132,7 @@ nav {
     padding-bottom: 1rem;
     margin-bottom: 2rem;
     padding-top: 2.4rem;
+    transition: ease-in-out .5s;
 }
 
 .card-body h5 {
@@ -788,17 +789,25 @@ video {
 }
 
 .form-twasal {
-    background-color: #ff5b58b4;
+    background-color: #FFF;
     padding: 20px;
     margin-left: 120px;
-    color: white;
+    color: #000;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.479);
     transition: all 1s;
 
 }
 
-.form-group {
+.form-control {
+    border-bottom: 1px solid #000 !important;
+    outline: none;
+    box-shadow: none;
+    border: none;
+    margin-bottom: 1rem;
+}
+
+ol .form-group {
     padding-bottom: 20px;
     border: none;
 }
@@ -1040,8 +1049,8 @@ video {
 }
 
 .p-div p {
-    font-size: 20px;
-    color: #000;
+    font-size: 18px;
+    color: #FFF;
     /* display: flex; */
     /* align-items: center; */
     transition: ease-in-out .5s;
